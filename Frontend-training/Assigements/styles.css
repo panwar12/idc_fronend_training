@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+img{
+  width: 14px;
+  height: 14px;
+}
+
+li {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.about{
+  float: right;
+}
+.sec{
+  background-color: #545B77;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+.card{
+  text-align: center;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: #F2D8D8;
+  color: white;
+}
+
+li a:hover {
+  background-color: silver;
+}
+.card-img{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.service{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+.service-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+.service-card{
+  text-align: center;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  color: black;
+}
+.btn{
+  font-size: 1rem;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+.foo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.sm{
+  width: 20px;
+  height: 20px;
+}
+  
